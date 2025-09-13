@@ -1,0 +1,35 @@
+.app-container {
+  max-width: 600px;
+  margin: auto;
+  padding: 24px;
+  background: #f4f6fb;
+  border-radius: 10px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+}
+.app-container h2 {
+  margin-bottom: 18px;
+  color: #333;
+}
+.logout-btn {
+  margin-top: 18px;
+  padding: 10px 20px;
+  background: #343a40;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.error {
+  color: #d9534f;
+  margin-top: 10px;
+}
+@media (max-width: 600px) {
+  .app-container {
+    padding: 10px;
+    font-size: 1em;
+  }
+  .logout-btn {
+    width: 100%;
+  }
+}
